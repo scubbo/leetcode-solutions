@@ -96,9 +96,3 @@ if (maxKelements([1, 10, 3, 3, 3], 3) != 17) {
 } else {
     console.log("Passed")
 }
-
-// The best approach, I think, be to create a maxHeap of size k, and always pop-and-repush the
-// biggest number (repushing the divided-by-three value)
-//
-// ...but there's no MinHeap implementation in TypeScript, so I may return to this with a build-your-own implementation
-// of a MinHeap at some point.
